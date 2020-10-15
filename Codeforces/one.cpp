@@ -24,5 +24,3 @@ int main()
         cout<<arr[n-1]<<"\n";
         
     }
-    return 0;
-}
