@@ -26,10 +26,12 @@ In Open Addressing, all elements are stored in the hash table itself. So at any 
 - Computes the hash function for a key, and puts the key in that location.
 - If the location is pre-occupied, the next location is probed for vacancy.
 - Inserting a value is good, but deleting from this hash implementation is interesting.
+- Clustering is a common issue.
 
 
 ## Double Hashing
 - Implementing double hash functions
+- Keys are more uniformly distributed that Linear Probing
 - First H1(k) is called for getting the place to insert the key. 
 - If the first place is already occupied, second hash function H2(k) is called recursively, until we get an empty location or run out of space.
 - For linear probing, H2(k) = 1;
