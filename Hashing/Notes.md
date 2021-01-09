@@ -6,11 +6,14 @@
 a. Chaining
 b. Open Addressing (Linear Probing, Double Hashing)
 
+In Open Addressing, all elements are stored in the hash table itself. So at any point, the size of the table must be greater than or equal to the total number of keys
+
 ## Chaining
 - Most basic implementation
 - Mostly used when it is unknown how many and how frequently keys may be inserted or deleted.
 - Uses lots of space
 - Cache performance is not good
+
 > Performance of chaining :
  m = Number of slots in hash table
  n = Number of keys to be inserted in hash table
