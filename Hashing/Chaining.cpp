@@ -61,7 +61,7 @@ int main()
     func.displayHash();
     
     func.deleteItem(14);
-    cout<<endl
+    cout<<endl;
     func.displayHash();
     
     return 0;
