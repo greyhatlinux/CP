@@ -11,6 +11,13 @@ b. Open Addressing (Linear Probing, Double Hashing)
 - Mostly used when it is unknown how many and how frequently keys may be inserted or deleted.
 - Uses lots of space
 - Cache performance is not good
+> Performance of chaining :
+ m = Number of slots in hash table
+ n = Number of keys to be inserted in hash table
+ a = n/m
+ Expected time to search = O(1 + α)
+ Expected time to delete = O(1 + α)
+ Time to insert = O(1)
 
 ## Linear Probing
 - Computes the hash function for a key, and puts the key in that location.
