@@ -1,4 +1,5 @@
 // difference between map, unordered map, and multimap
+// Maps in c++ are implemented using red/black trees
 
 #include<bits/stdc++.h>
 using namespace std;
