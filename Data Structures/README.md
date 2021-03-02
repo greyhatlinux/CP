@@ -1,7 +1,7 @@
-Notes for Data Structures : 
+# Notes for Data Structures : 
 
 
-Data Structures :
+## Data Structures :
 - Array
 - Linked List
 - Stack
