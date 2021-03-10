@@ -49,7 +49,7 @@ int main()
     us.insert(200);
     us.insert(500);
     us.insert(300);
-    us.insert(200);
+    us.insert(200); //Multiple value of 200 will be discarded
     us.insert(900);
     us.insert(600);
     
@@ -61,6 +61,17 @@ int main()
     }
     
     cout<<endl;
+    cout<<"set current size : "<<us.size()<<endl;
+    cout<<"max size : "<<us.max_size()<<endl;
+    cout<<"Removing 600 and 100 'us.erase(x)' \n";
+    
+    us.erase(600);
+    us.erase(100);
+    
+    cout<<"Unordered Set after Removing 600 :\n";
+    for(it = us.begin(); it!=us.end(); it++) {
+        cout<<*it<<" ";
+    }
     
     
     return 0;
