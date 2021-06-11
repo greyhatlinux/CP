@@ -55,3 +55,11 @@ void quickSort(vector<int> &arr, int low, int high) {
 // average case: O(nlogn)
 
 // SC : O(1) because it performs in-place sorting, space is only for recursive calls
+
+
+// Sample Input : 
+// 2
+// 7
+// 10 2 5 12 25 4 8
+// 6
+// 5 6 54 32 9 8
